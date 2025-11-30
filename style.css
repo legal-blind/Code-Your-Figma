@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h2 {
+    font-family: "Georgia", serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero img {
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 6px;
+}
+
+.signup {
+    text-align: center;
+    padding: 2rem 0;
+    background: #fff;
+}
+
+input {
+    padding: 0.5rem;
+    width: 220px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+/* Dark mode */
+.dark {
+    background: #111;
+    color: #eee;
+}
+
+.dark .nav {
+    background: #222;
+}
